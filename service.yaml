@@ -6,7 +6,6 @@ metadata:
   name: kubernetes-william
   namespace: default
 spec:
-  clusterIP: 10.35.245.141
   externalTrafficPolicy: Cluster
   ports:
   - nodePort: 32475
