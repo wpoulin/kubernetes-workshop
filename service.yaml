@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: 2019-03-21T21:46:18Z
+  labels:
+    run: kubernetes-william
+  name: kubernetes-william
+  namespace: default
+  resourceVersion: "12420"
+  selfLink: /api/v1/namespaces/default/services/kubernetes-william
+  uid: c289db0c-4c22-11e9-a157-42010aa400a7
+spec:
+  clusterIP: 10.35.245.141
+  externalTrafficPolicy: Cluster
+  ports:
+  - nodePort: 32475
+    port: 9000
+    protocol: TCP
+    targetPort: 9000
+  selector:
+    run: kubernetes-william
+  sessionAffinity: None
+  type: LoadBalancer
+status:
+  loadBalancer:
+    ingress:
+    - ip: 35.204.40.147
