@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinsimper/kubernetes-workshop-21.git"
+    "url": "git+https://github.com/wpoulin/kubernetes-workshop.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinsimper/kubernetes-workshop-21/issues"
+    "url": "https://github.com/wpoulin/kubernetes-workshop/issues"
   },
-  "homepage": "https://github.com/kevinsimper/kubernetes-workshop-21#readme"
+  "homepage": "https://github.com/wpoulin/kubernetes-workshop#readme"
 }
